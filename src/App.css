@@ -1,0 +1,50 @@
+.App {
+  max-width: 900px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #1a1a1a;
+  box-shadow: #000000 5px 5px 10px;
+}
+
+#logo {
+  width: 125px;
+  height: 125px;
+  border: solid 3px black;
+  border-radius: 50%;
+  box-shadow: 5px 5px #000000;
+}
+
+p {
+  width: 80%;
+  text-align: justify;
+}
+
+article {
+  width: auto;
+  margin: 0px;
+  border: dotted 5px yellow;
+  padding: 10px;
+  background-color: #800000;
+}
+
+footer {
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #cc99ff;
+}
+
+a:hover, a:active {
+  color: #ccff33;
+}
